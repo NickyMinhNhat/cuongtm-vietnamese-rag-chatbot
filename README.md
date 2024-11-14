@@ -13,8 +13,8 @@ Here is the RAG pipeline in two version:
 ## Clone the repository (or download the code files):
 
    ```bash
-   git clone https://github.com/tranmanhcuong253/Vietnamese-RAG-Chatbot.git
-   cd Vietnamese-RAG-Chatbot
+   git clone https://github.com/protonx-ai-devs-02/cuongtm-vietnamese-rag-chatbot.git
+   cd cuongtm-vietnamese-rag-chatbot
   ```
 ## Backend Setup (Flask + Colab + Ngrok)
 1. Open the file `Vietnamese_RAG_Chatbot_Backend.ipynb` in Google Colab.
