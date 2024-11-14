@@ -1,6 +1,10 @@
 # Vietnamese-RAG-Chatbot
 Create a chatbot that provides responses in Vietnamese, focusing on the products offered by a flower shop
 
+Here is the RAG pipeline in two version:
+![image](https://github.com/user-attachments/assets/0db9e99f-3a70-463d-a379-f2c41b7e7e31)
+![image](https://github.com/user-attachments/assets/c31d8ffc-393b-433b-a709-1d71609b9e6d)
+
 ## Prerequisites
 
 - [Python 3.7+](https://www.python.org/downloads/) for running the Streamlit frontend locally
@@ -24,6 +28,7 @@ Create a chatbot that provides responses in Vietnamese, focusing on the products
 
 ## GUI Setup (Streamlit)
 1.**Create and activate a virtual environment**
+
 Using venv
 ```bash
 python -m venv venv
@@ -39,6 +44,7 @@ conda activate myenv
 pip install -r requirements.txt
 ```
 3.**Running the App**
+
 Remember to set the Ngrok URL before running
 ```bash
 streamlit run Hello.py
@@ -46,4 +52,5 @@ streamlit run Hello.py
 You can now view your Streamlit app in your browser.
 
   Local URL: http://localhost:8501
+  
   Network URL: http://<your_ip_address>:8501
